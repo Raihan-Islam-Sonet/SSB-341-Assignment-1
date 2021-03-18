@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    background: #fff;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(241, 241, 241);
+}
+.logo{
+    width: 30%;
+    float: left;   
+}
+.logo a img{
+    padding-left: 20px;
+}
+.menu{
+    width: 70%;   
+    line-height: 40px;  
+}
+.menu ul li{ 
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+}
+.menu ul a{
+    font-size: 20px;
+    color: #1C325F;
+    margin-right: 20px;
+    transition: color 0.5s;
+}
+.menu ul a:hover{
+    color: #5e8deb;
+}
+
+/*===Banner Section===*/
+.banner{
+    height: 100vh;
+    width: 100%;
+}
+.text{
+    margin-top: 100px;
+    text-align: center;
+}
+.text h1{
+    font-size: 50px;
+    color: #0F2656;
+}
+.text h2{
+    font-size: 50px;
+    color: #008AFF;
+}
+.text p{
+    font-size: 20px;
+    color: #193E67;
+    margin-top: 5px;
+}
+.banner-img {
+    text-align: center;
+    padding-top: 60px;
+}
+
+/*===Textarea Section===*/
+.textarea{
+    height: 40vh;
+    padding-top: 50px;
+}
+.left-text{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 0 20px 0 150px;
+}
+.left-text h1{
+     color: #F15767;
+ }
+ .left-text p{
+     color: #051d36;
+     font-size: 17px;
+ }
+.right-text{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 0 20px 0 20px;
+}
+.right-text h1{
+    color: #0F2656;
+}
+
+/*===Item Section===*/
+.items{
+    height: 70vh;
+    margin-left: 30px; 
+}
+.left-item img{
+    width: 30%;
+    float: left;
+    padding-left: 70px; 
+}
+.middle-item img{
+    width: 30%;
+    float: left;
+    padding-left: 70px;
+}
+.right-item img{
+    width: 30%;
+    float: left;
+    padding-left: 70px;
+
+}
+/*=======Footer=========*/
+.footer{
+    background-color: #008AFF;
+    height: 50px;
+}
+.footer p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer p a{
+    color: #fff;
+}
